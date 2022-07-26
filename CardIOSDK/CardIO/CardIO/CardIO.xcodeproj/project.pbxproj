@@ -18,9 +18,6 @@
 		BEF70C9D288F1A88007DD48A /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF70C96288F1A88007DD48A /* CardIOViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF70C9E288F1A88007DD48A /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF70C97288F1A88007DD48A /* CardIOView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF70C9F288F1A88007DD48A /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF70C98288F1A88007DD48A /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEF70CA1288F1AF0007DD48A /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF70CA0288F1AF0007DD48A /* libCardIO.a */; };
-		BEF70CA3288F1AF5007DD48A /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF70CA2288F1AF5007DD48A /* libopencv_core.a */; };
-		BEF70CA5288F1AF8007DD48A /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF70CA4288F1AF8007DD48A /* libopencv_imgproc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +43,6 @@
 		BEF70C96288F1A88007DD48A /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
 		BEF70C97288F1A88007DD48A /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
 		BEF70C98288F1A88007DD48A /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
-		BEF70CA0288F1AF0007DD48A /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
-		BEF70CA2288F1AF5007DD48A /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
-		BEF70CA4288F1AF8007DD48A /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = CardIO/libopencv_imgproc.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF70CA1288F1AF0007DD48A /* libCardIO.a in Frameworks */,
-				BEF70CA3288F1AF5007DD48A /* libopencv_core.a in Frameworks */,
-				BEF70CA5288F1AF8007DD48A /* libopencv_imgproc.a in Frameworks */,
 				BEF70C91288F1A46007DD48A /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,9 +110,6 @@
 		BEF70C8F288F1A46007DD48A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEF70CA4288F1AF8007DD48A /* libopencv_imgproc.a */,
-				BEF70CA2288F1AF5007DD48A /* libopencv_core.a */,
-				BEF70CA0288F1AF0007DD48A /* libCardIO.a */,
 				BEF70C90288F1A46007DD48A /* Accelerate.framework */,
 			);
 			name = Frameworks;
