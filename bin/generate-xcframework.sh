@@ -38,3 +38,6 @@ do
     echo "$I.xcframework created"
 done
 
+cd "../../../"
+
+mv ./CardIOSDK/Build ./Sources/card.io-iOS-SDK
