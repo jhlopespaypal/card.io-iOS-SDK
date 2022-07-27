@@ -11,9 +11,9 @@ mkdir $BUILDPATH
 
 cd "CardIOKit/CardIO/$PROJNAME"
 
-xcodebuild -scheme $PROJNAME -sdk iphoneos -configuration Release ARCHS="arm64" -destination 'generic/platform=iOS' BUILD_DIR=$OUTPUTPATH
+xcodebuild -scheme $PROJNAME -sdk iphoneos -configuration Release ARCHS="arm64" OTHER_CFLAGS="-fembed-bitcode" BITCODE_GENERATION_MODE="bitcode" -destination 'generic/platform=iOS' BUILD_DIR=$OUTPUTPATH
 
-xcodebuild -scheme $PROJNAME -sdk iphoneos -configuration Release ARCHS="x86_64 arm64" -destination 'platform=iOS Simulator,name=iPod touch (7th generation)' BUILD_DIR=$OUTPUTPATH
+xcodebuild -scheme $PROJNAME -sdk iphoneos -configuration Release ARCHS="x86_64 arm64" OTHER_CFLAGS="-fembed-bitcode" BITCODE_GENERATION_MODE="bitcode" -destination 'platform=iOS Simulator,name=iPod touch (7th generation)' BUILD_DIR=$OUTPUTPATH
 
 cd $OUTPUTPATH
 
