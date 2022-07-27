@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE74E728289060D5003364F2 /* card.io-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = BE74E727289060D5003364F2 /* card.io-iOS-SDK */; };
+		BEDC4FF12890A33700D69FAD /* libopencv_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FED2890A33700D69FAD /* libopencv_core.xcframework */; };
+		BEDC4FF22890A33700D69FAD /* libopencv_core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FED2890A33700D69FAD /* libopencv_core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEDC4FF32890A33700D69FAD /* libCardIO.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FEE2890A33700D69FAD /* libCardIO.xcframework */; };
+		BEDC4FF42890A33700D69FAD /* libCardIO.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FEE2890A33700D69FAD /* libCardIO.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEDC4FF52890A33700D69FAD /* CardIO.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FEF2890A33700D69FAD /* CardIO.xcframework */; };
+		BEDC4FF62890A33700D69FAD /* CardIO.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FEF2890A33700D69FAD /* CardIO.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEDC4FF72890A33700D69FAD /* libopencv_imgproc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FF02890A33700D69FAD /* libopencv_imgproc.xcframework */; };
+		BEDC4FF82890A33700D69FAD /* libopencv_imgproc.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC4FF02890A33700D69FAD /* libopencv_imgproc.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEF70CAC288F30F8007DD48A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF70CAB288F30F8007DD48A /* Accelerate.framework */; };
 		D534F1C71A324F63003C3AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534F1C61A324F63003C3AB4 /* AppDelegate.swift */; };
 		D534F1C91A324F63003C3AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534F1C81A324F63003C3AB4 /* ViewController.swift */; };
@@ -34,6 +41,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BEDC4FF22890A33700D69FAD /* libopencv_core.xcframework in Embed Frameworks */,
+				BEDC4FF42890A33700D69FAD /* libCardIO.xcframework in Embed Frameworks */,
+				BEDC4FF82890A33700D69FAD /* libopencv_imgproc.xcframework in Embed Frameworks */,
+				BEDC4FF62890A33700D69FAD /* CardIO.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +52,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE74E726289060C8003364F2 /* card.io-iOS-SDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "card.io-iOS-SDK"; path = ../..; sourceTree = "<group>"; };
+		BEDC4FED2890A33700D69FAD /* libopencv_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libopencv_core.xcframework; path = "../../Sources/card.io-iOS-SDK/Build/libopencv_core.xcframework"; sourceTree = "<group>"; };
+		BEDC4FEE2890A33700D69FAD /* libCardIO.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libCardIO.xcframework; path = "../../Sources/card.io-iOS-SDK/Build/libCardIO.xcframework"; sourceTree = "<group>"; };
+		BEDC4FEF2890A33700D69FAD /* CardIO.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CardIO.xcframework; path = "../../Sources/card.io-iOS-SDK/Build/CardIO.xcframework"; sourceTree = "<group>"; };
+		BEDC4FF02890A33700D69FAD /* libopencv_imgproc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libopencv_imgproc.xcframework; path = "../../Sources/card.io-iOS-SDK/Build/libopencv_imgproc.xcframework"; sourceTree = "<group>"; };
 		BEF70CAB288F30F8007DD48A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D534F1C11A324F63003C3AB4 /* SampleApp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D534F1C51A324F63003C3AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,8 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE74E728289060D5003364F2 /* card.io-iOS-SDK in Frameworks */,
 				BEF70CAC288F30F8007DD48A /* Accelerate.framework in Frameworks */,
+				BEDC4FF12890A33700D69FAD /* libopencv_core.xcframework in Frameworks */,
+				BEDC4FF32890A33700D69FAD /* libCardIO.xcframework in Frameworks */,
+				BEDC4FF72890A33700D69FAD /* libopencv_imgproc.xcframework in Frameworks */,
+				BEDC4FF52890A33700D69FAD /* CardIO.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,17 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE74E725289060C8003364F2 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				BE74E726289060C8003364F2 /* card.io-iOS-SDK */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		BEF70CA6288F1D40007DD48A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEDC4FEF2890A33700D69FAD /* CardIO.xcframework */,
+				BEDC4FEE2890A33700D69FAD /* libCardIO.xcframework */,
+				BEDC4FED2890A33700D69FAD /* libopencv_core.xcframework */,
+				BEDC4FF02890A33700D69FAD /* libopencv_imgproc.xcframework */,
 				BEF70CAB288F30F8007DD48A /* Accelerate.framework */,
 			);
 			name = Frameworks;
@@ -95,7 +108,6 @@
 		D534F1B81A324F63003C3AB4 = {
 			isa = PBXGroup;
 			children = (
-				BE74E725289060C8003364F2 /* Packages */,
 				D534F1C31A324F63003C3AB4 /* SampleApp-Swift */,
 				D534F1D91A324F64003C3AB4 /* SampleApp-SwiftTests */,
 				D534F1C21A324F63003C3AB4 /* Products */,
@@ -169,7 +181,6 @@
 			);
 			name = "SampleApp-Swift";
 			packageProductDependencies = (
-				BE74E727289060D5003364F2 /* card.io-iOS-SDK */,
 			);
 			productName = "SampleApp-Swift";
 			productReference = D534F1C11A324F63003C3AB4 /* SampleApp-Swift.app */;
@@ -520,13 +531,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		BE74E727289060D5003364F2 /* card.io-iOS-SDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "card.io-iOS-SDK";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D534F1B91A324F63003C3AB4 /* Project object */;
 }

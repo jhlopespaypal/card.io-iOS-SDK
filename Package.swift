@@ -28,19 +28,19 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CardIO",
-            path: "./Sources/card.io-iOS-SDK/Build/CardIO.xcframework"
+            path: "./Sources/Build/CardIO.xcframework"
         ),
         .binaryTarget(
             name: "libCardIO",
-            path: "./Sources/card.io-iOS-SDK/Build/libCardIO.xcframework"
+            path: "./Sources/Build/libCardIO.xcframework"
         ),
         .binaryTarget(
             name: "libopencv_core",
-            path: "./Sources/card.io-iOS-SDK/Build/libopencv_core.xcframework"
+            path: "./Sources/Build/libopencv_core.xcframework"
         ),
         .binaryTarget(
             name: "libopencv_imgproc",
-            path: "./Sources/card.io-iOS-SDK/Build/libopencv_imgproc.xcframework"
+            path: "./Sources/Build/libopencv_imgproc.xcframework"
         ),
     ]
 )

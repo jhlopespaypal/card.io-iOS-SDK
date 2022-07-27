@@ -3,13 +3,13 @@
 # VARs
 PROJNAME="CardIO"
 OUTPUTPATH="../../Build"
-BUILDPATH="CardIOSDK/Build"
+BUILDPATH="CardIOKit/Build"
 
 mkdir $BUILDPATH
 
 # Create CardIO XCFramework
 
-cd "CardIOSDK/CardIO/$PROJNAME"
+cd "CardIOKit/CardIO/$PROJNAME"
 
 xcodebuild -scheme $PROJNAME -sdk iphoneos -configuration Release ARCHS="arm64" -destination 'generic/platform=iOS' BUILD_DIR=$OUTPUTPATH
 
@@ -40,4 +40,4 @@ done
 
 cd "../../../"
 
-mv ./CardIOSDK/Build ./Sources/card.io-iOS-SDK
+mv ./CardIOKit/Build ./Sources
