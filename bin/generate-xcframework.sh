@@ -1,5 +1,12 @@
 #!/bin/bash
 
+CURRENTDIR=$(dirname $0)
+
+if [ $CURRENTDIR != "bin" ]; then 
+    echo "Please run the script from root folder. Ex: bin/generate-xcframework.sh"
+    exit 1
+fi
+
 # VARs
 PROJNAME="CardIO"
 OUTPUTPATH="../../Build"
