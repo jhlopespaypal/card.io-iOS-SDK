@@ -3,44 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "card.io-iOS-SDK",
+    name: "CardIOSDK",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "card.io-iOS-SDK",
-            targets: [
-                "CardIOSDK",
-            ]
+            name: "CardIOSDK",
+            targets: ["CardIO"]
         ),
     ],
     dependencies: [],
     targets: [
-        .target(
-            name: "CardIOSDK",
-            dependencies: [
-                "CardIO",
-                "libCardIO",
-                "libopencv_core",
-                "libopencv_imgproc",
-            ]
-        ),
         .binaryTarget(
             name: "CardIO",
-            path: "./Sources/Build/CardIO.xcframework"
-        ),
-        .binaryTarget(
-            name: "libCardIO",
-            path: "./Sources/Build/libCardIO.xcframework"
-        ),
-        .binaryTarget(
-            name: "libopencv_core",
-            path: "./Sources/Build/libopencv_core.xcframework"
-        ),
-        .binaryTarget(
-            name: "libopencv_imgproc",
-            path: "./Sources/Build/libopencv_imgproc.xcframework"
+            path: "./Sources/CardIOSDK/CardIO.xcframework"
         ),
     ]
 )

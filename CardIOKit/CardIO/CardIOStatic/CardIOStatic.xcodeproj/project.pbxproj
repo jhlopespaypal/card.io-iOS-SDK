@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE85459A28946EBD00113D59 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE85459928946EBC00113D59 /* Accelerate.framework */; };
+		BE85459C28946F6900113D59 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459728946E8C00113D59 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE85459D28946F6900113D59 /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459628946E8B00113D59 /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE85459E28946F6900113D59 /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459028946E8B00113D59 /* CardIODetectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE85459F28946F6900113D59 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459128946E8B00113D59 /* CardIOPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8545A028946F6900113D59 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459428946E8B00113D59 /* CardIOPaymentViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8545A128946F6900113D59 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459328946E8B00113D59 /* CardIOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8545A228946F6900113D59 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459228946E8B00113D59 /* CardIOView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8545A328946F6900113D59 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BE85459528946E8B00113D59 /* CardIOViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8545A52894704B00113D59 /* CardIO.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8545A42894704B00113D59 /* CardIO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE85458228946E4B00113D59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE85458428946E4B00113D59 /* libCardIOStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCardIOStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE85459028946E8B00113D59 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		BE85459128946E8B00113D59 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		BE85459228946E8B00113D59 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		BE85459328946E8B00113D59 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		BE85459428946E8B00113D59 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		BE85459528946E8B00113D59 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		BE85459628946E8B00113D59 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		BE85459728946E8C00113D59 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		BE85459928946EBC00113D59 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		BE8545A42894704B00113D59 /* CardIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE85458128946E4B00113D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85459A28946EBD00113D59 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE85457B28946E4B00113D59 = {
+			isa = PBXGroup;
+			children = (
+				BE85458628946E4B00113D59 /* CardIOStatic */,
+				BE85458528946E4B00113D59 /* Products */,
+				BE85459828946EBC00113D59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE85458528946E4B00113D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE85458428946E4B00113D59 /* libCardIOStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE85458628946E4B00113D59 /* CardIOStatic */ = {
+			isa = PBXGroup;
+			children = (
+				BE85459728946E8C00113D59 /* CardIO.h */,
+				BE85459628946E8B00113D59 /* CardIOCreditCardInfo.h */,
+				BE85459028946E8B00113D59 /* CardIODetectionMode.h */,
+				BE85459128946E8B00113D59 /* CardIOPaymentViewController.h */,
+				BE85459428946E8B00113D59 /* CardIOPaymentViewControllerDelegate.h */,
+				BE85459328946E8B00113D59 /* CardIOUtilities.h */,
+				BE85459228946E8B00113D59 /* CardIOView.h */,
+				BE85459528946E8B00113D59 /* CardIOViewDelegate.h */,
+				BE8545A42894704B00113D59 /* CardIO.m */,
+			);
+			path = CardIOStatic;
+			sourceTree = "<group>";
+		};
+		BE85459828946EBC00113D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE85459928946EBC00113D59 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE85459B28946F5400113D59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85459C28946F6900113D59 /* CardIO.h in Headers */,
+				BE85459D28946F6900113D59 /* CardIOCreditCardInfo.h in Headers */,
+				BE85459E28946F6900113D59 /* CardIODetectionMode.h in Headers */,
+				BE85459F28946F6900113D59 /* CardIOPaymentViewController.h in Headers */,
+				BE8545A028946F6900113D59 /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				BE8545A128946F6900113D59 /* CardIOUtilities.h in Headers */,
+				BE8545A228946F6900113D59 /* CardIOView.h in Headers */,
+				BE8545A328946F6900113D59 /* CardIOViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE85458328946E4B00113D59 /* CardIOStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE85458D28946E4B00113D59 /* Build configuration list for PBXNativeTarget "CardIOStatic" */;
+			buildPhases = (
+				BE85459B28946F5400113D59 /* Headers */,
+				BE85458028946E4B00113D59 /* Sources */,
+				BE85458128946E4B00113D59 /* Frameworks */,
+				BE85458228946E4B00113D59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardIOStatic;
+			productName = CardIOStatic;
+			productReference = BE85458428946E4B00113D59 /* libCardIOStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE85457C28946E4B00113D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BE85458328946E4B00113D59 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BE85457F28946E4B00113D59 /* Build configuration list for PBXProject "CardIOStatic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE85457B28946E4B00113D59;
+			productRefGroup = BE85458528946E4B00113D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE85458328946E4B00113D59 /* CardIOStatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE85458028946E4B00113D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8545A52894704B00113D59 /* CardIO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE85458B28946E4B00113D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE85458C28946E4B00113D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE85458E28946E4B00113D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				MODULEMAP_FILE = "$(inherited)";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE85458F28946E4B00113D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				MODULEMAP_FILE = "$(inherited)";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE85457F28946E4B00113D59 /* Build configuration list for PBXProject "CardIOStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85458B28946E4B00113D59 /* Debug */,
+				BE85458C28946E4B00113D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE85458D28946E4B00113D59 /* Build configuration list for PBXNativeTarget "CardIOStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85458E28946E4B00113D59 /* Debug */,
+				BE85458F28946E4B00113D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE85457C28946E4B00113D59 /* Project object */;
+}

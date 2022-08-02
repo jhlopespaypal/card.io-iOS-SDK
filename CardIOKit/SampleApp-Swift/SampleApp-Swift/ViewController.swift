@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import CardIO
 
 class ViewController: UIViewController, CardIOPaymentViewControllerDelegate {
 

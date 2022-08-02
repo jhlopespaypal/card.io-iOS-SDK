@@ -1,5 +1,5 @@
 //  Copyright (c) 2014 PayPal. All rights reserved.
-#import <CardIO/CardIO.h>
+#import "CardIO.h"
 
 @import AudioToolbox;
 @import AVFoundation;
