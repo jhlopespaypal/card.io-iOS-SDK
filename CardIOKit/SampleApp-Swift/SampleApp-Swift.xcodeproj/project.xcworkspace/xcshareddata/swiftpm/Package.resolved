@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CardIOSDK",
+        "repositoryURL": "https://github.com/jhlopespaypal/card.io-iOS-SDK.git",
+        "state": {
+          "branch": "venmo/card-io-xcframework-spm",
+          "revision": "cd9ef35667c3c32394ddc0db7587b567b24cf64b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
